@@ -20,9 +20,7 @@ namespace PeopleManagement.API.Controllers.V2
         public override async Task<IActionResult> AddAsync([FromBody] CreatePersonRequest request, [FromServices] IValidator<CreatePersonRequest> validator, IMapper mapper, CancellationToken cancellationToken)
         {
             if (request is null)
-            {
                 return BadRequest("Request cannot be null.");
-            }
 
             ValidationResult validationResult = await validator.ValidateAsync(request, opt =>
             {
