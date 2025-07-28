@@ -84,10 +84,6 @@ A API tem disponibilidade de versionamento e está disponível nas versões v1 e
 ### Passos para Execução
 
 1. Clone o repositório:
-   ```bash
-   git clone https://github.com/Italoguerrap/PeopleManagement.git
-   cd PeopleManagement
-   ```
 
 2. Configurar a conexão com o banco de dados em `appsettings.json`:
    ```json
