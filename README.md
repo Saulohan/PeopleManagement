@@ -121,8 +121,6 @@ dotnet test PeopleManagement.Test
 
 ### Person (Entidade Principal)
 
-### Person (Entidade Principal)
-
 | Campo         | Tipo        | Descrição                                 |
 |---------------|-------------|-------------------------------------------|
 | Id            | Guid        | Identificador único da pessoa             |
